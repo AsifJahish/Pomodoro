@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner"
+    android:orientation="horizontal"
+    android:backgroundTint="@color/DarkBlue"
+    android:layout_marginBottom="20dp"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+
+        android:id="@+id/list_item"
+        android:textSize="15dp"
+        android:text="to DO"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/DarkBlue"
+        android:id="@+id/done"/>
+
+</LinearLayout>
